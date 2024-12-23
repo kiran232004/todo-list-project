@@ -2,53 +2,50 @@
 @import '../GlobalStyles.css';
 
 .app__wrapper {
-	max-width: 750px;
-	width: 100%;
-	margin: 2rem auto;
-	background-color: black;
-	color: white;
-	border-radius: 16px;
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-	padding: 1.5rem;
-  }
-  
-  .appHeader {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 60px;
-	border-bottom: 2px solid white;
-	padding: 0 1rem;
-  
+    max-width: 750px;
+    width: 100%;
+    margin: 2rem auto;
+    background-color: gray;
+    color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.appHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 2px solid white;
+    padding: 0 1rem;
+
 	.logo {
-	  font-size: 1.8rem;
-	  font-weight: bold;
-	  color: var(--primary-color);
+		font-size: 1.8rem;
+		font-weight: bold;
+		color: var(--primary-color);
 	}
-  
-	.menu {
-	  display: flex;
-	  gap: 1rem;
-  
-	  a {
+	
+	.menu a {
 		text-decoration: none;
 		color: var(--secondary-color);
 		font-weight: 500;
 		transition: color 0.3s;
-  
+	
 		&:hover {
-		  color: var(--primary-color);
+			color: var(--primary-color);
 		}
-	  }
 	}
+	
+	
   }
   
   .content__wrapper {
 	background-color: var(--bg-light);
-	padding: 2rem;
-	border-radius: 12px;
-	border: 1px solid var(--primary-color);
-	box-shadow: 0 2px 8px rgba(163, 151, 151, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 2px 8px rgba(163, 151, 151, 0.1);
   
 	@include smallDeviceSize {
 	  padding: 1.5rem;
@@ -56,15 +53,15 @@
   }
   
   .emptyText {
-	font-size: 1.4rem;
-	font-weight: 500;
-	color: black;
-	text-align: center;
-	margin: 2rem auto;
-	padding: 0.5rem 1rem;
-	border-radius: 8px;
-	background-color: white;
-	width: max-content;
-	height: auto;
-	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  }
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: white;
+    width: max-content;
+    height: auto;
+    box-shadow: 0px 2px 6px rgba(194, 79, 79, 0.1);
+}
